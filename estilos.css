@@ -1,0 +1,97 @@
+/*primario fuerte:#451952;
+secundario menos fuerte :#662549;
+tercero mas clarito:#AE445A;
+cuarto naranjita:#F39F5A
+
+colores de mi sitio web
+*/
+
+
+.bg-primary{
+    background-image:url(https://live.staticflickr.com/3646/3590033225_8959a6460e_b.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.text-light{
+    color:#F39F5A !important; /*la etiqueta la puse para que lo tome SI O SI */
+}
+.primerP{
+font-size: large;
+}
+.primerP:hover{
+color: #EF9595 !important; /* important para que si o si lo cambie*/
+font-weight: bold;
+}
+
+.text-center{
+    text-align: center;
+}
+body{
+    background-image: url(https://i.pinimg.com/originals/97/26/63/97266333ecbfc758c77c34c840d1874e.png);
+}
+
+nav{
+    text-align: center;/*paracentrar el texto*/
+}
+.habilidades {
+    display: flex; /* Cambiando el display a flexible (flexbox) */
+    justify-content: space-between; /* Distribuir los elementos con espacio entre ellos */
+}
+.sobreMi{
+    display: flex; /* cambio el display a flexible */
+    justify-content: space-between; /* Distribuir los elementos con espacio entre ellos */
+}
+
+.contact{
+    display: flex; /* cambio el display a flexible (flexbox) */
+    justify-content: space-between; /* Distribuir los elementos con espacio entre ellos */
+
+
+}.sobreMi .card {
+    background-color: lightblue; /* pongo el fondo de la tarjeta 'Sobre mi' en otro color */
+    color: navy; /* pongo color del texto en la tarjeta 'Sobre mi'  en azul para que combine Jaja  */
+}
+
+.habilidades .card{
+    background-color: lightblue;
+    color: navy;
+}
+
+.contact .card{
+    background-color: lightblue;
+    color: navy;
+}
+button{
+    border-radius: 10px;
+}
+button:hover {
+    background-color: yellow; /* Cambia el fondo a amarillo cada vez que paso por encima */
+    color:red;
+}
+
+.card:hover{
+    color: yellow;
+    background-color:  navy;
+}
+
+h1:hover{
+    color: #AE445A !important; /*para que si o si lo cambie*/
+}
+
+@keyframes moverIzquierdaDerecha {
+    0% {
+        transform: translateX(0); /* No se desplaza al inicio */
+    }
+    50% {
+        transform: translateX(10%); /* Se desplaza para la derecha */
+    }
+    100% {
+        transform: translateX(0); /* Vuelve al comienzo */
+    }
+}
+.moving-text {
+    animation: moverIzquierdaDerecha 10s infinite; /* Aplica la animación al texto */
+}
+

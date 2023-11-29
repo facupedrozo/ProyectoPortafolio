@@ -2,17 +2,26 @@
 secundario menos fuerte :#662549;
 tercero mas clarito:#AE445A;
 cuarto naranjita:#F39F5A
-
 colores de mi sitio web
+
+
+https://media.tenor.com/_zbsJOBoVOEAAAAC/banner.gif (imagen gif para un banner) 
+
 */
 
 
+header{
+    cursor: pointer;
+}
 .bg-primary{
-    background-image:url(https://live.staticflickr.com/3646/3590033225_8959a6460e_b.jpg);
-    background-repeat: no-repeat;
+    background-image:url(https://img.freepik.com/premium-vector/web-development-coding-programming-futuristic-banner-computer-code-laptop_3482-5582.jpg);
+    background-repeat: repeat;
     background-position: center;
+    background-size: cover; /
     
 }
+    
+
 
 .text-light{
     color:#F39F5A !important; /*la etiqueta la puse para que lo tome SI O SI */
@@ -29,7 +38,7 @@ font-weight: bold;
     text-align: center;
 }
 body{
-    background-image: url(https://i.pinimg.com/originals/97/26/63/97266333ecbfc758c77c34c840d1874e.png);
+    background-image: url(https://w0.peakpx.com/wallpaper/94/67/HD-wallpaper-laptop-keys-code-programming-purple.jpg);
 }
 
 nav{
